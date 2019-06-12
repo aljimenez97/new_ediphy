@@ -7,7 +7,7 @@ export const initialState = (config) => { return { filesUploaded: {},
         present: {
             globalConfig: {
                 title: undefined,
-                canvasRatio: config.defaultAspectRatio || 16 / 9,
+                canvasRatio: 4 / 3,
                 minTimeProgress: 0,
                 visorNav: {
                     player: true,
@@ -33,6 +33,11 @@ export const initialState = (config) => { return { filesUploaded: {},
                 structure: 'linear',
                 difficulty: undefined,
                 allowClone: true, allowDownload: true, allowComments: true,
+            },
+            styleConfig: {
+                theme: 'ging',
+                color: '#282828',
+                font: 'Ubuntu',
             },
             indexSelected: 'pa-1497983247795',
             boxesById: {},

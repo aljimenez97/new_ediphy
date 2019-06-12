@@ -157,7 +157,7 @@ export default class ThemeCSS extends React.Component {
         let images = getThemeImages(theme);
         Object.keys(images).map((templateKey) => {
             Object.keys(images[templateKey]).map((posKey) => {
-                this.updateCustomProperty('--templates_' + templateKey + '_' + posKey, `url(/themes/${theme}/${images[templateKey][posKey]})`);
+                this.updateCustomProperty('--templates_' + templateKey + '_' + posKey, `url(../themes/${theme}/${images[templateKey][posKey]})`);
             });
         });
     }
