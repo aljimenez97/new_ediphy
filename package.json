@@ -215,7 +215,7 @@
     "mini-svg-data-uri": "^1.1.3",
     "moodlexml-to-json": "^1.1.0",
     "pdfjs-dist": "2.0.305",
-    "prismjs": "^1.11.0",
+    "prismjs": "^1.25.0",
     "prop-types": "^15.6.0",
     "pure-react-carousel": "^1.19.0",
     "raw-loader": "0.5.1",
